@@ -30,8 +30,15 @@ def move(board, index, token = "X")
   board[index] = token
 end
 
+def input_to_index(user_input)
+  user_input = user_input.to_i
+  user_input -= 1
+
 def turn(board)
   puts "Please enter 1-9"
-  index = board.chomp
-  index.to_i
+  index = gets.chomp
+  index = index.to_i
+  if index.between(1,9)
+     
+  
   
