@@ -36,8 +36,8 @@ def input_to_index(user_input)
 end
 
 def turn(board)
-  puts "Please enter 1-9"
+  puts "Please enter 1-9:"
   index = gets.chomp
   index = input_to_index(index)
-  
+
 end
