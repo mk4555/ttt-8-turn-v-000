@@ -39,4 +39,4 @@ def turn(board)
   puts "Please enter 1-9"
   index = gets.chomp
   index = index.to_i
-  if index.between(1,9)
+end
